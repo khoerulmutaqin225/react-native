@@ -4,5 +4,7 @@ import IconHome from './home.svg'
 import IconHomeActive from './homeActive.svg'
 import IconPesanan from './pesanan.svg'
 import IconPesananActive from './pesananActive.svg'
+import IconaddSaldo from './addSaldo.svg'
+import IcongetPoint from './getPoint.svg'
 
-export {IconAkun,IconAkunActive,IconHome,IconHomeActive,IconPesanan,IconPesananActive}
+export { IcongetPoint, IconaddSaldo, IconAkun, IconAkunActive, IconHome, IconHomeActive, IconPesanan, IconPesananActive }
