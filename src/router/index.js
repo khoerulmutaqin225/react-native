@@ -23,9 +23,9 @@ const Router = () => {
 
     // Pembacaan Ketiga
     <Stack.Navigator initialRouteName='Splash'>
-     <Stack.Screen name="Splash" component={Splash} options={{headerShown: false}}   /> 
-     <Stack.Screen name="MainApp" component={MainApp} options={{headerShown: false}}   /> 
-     </Stack.Navigator>
+       <Stack.Screen name="Splash" component={Splash} options={{headerShown: false}}   /> 
+       <Stack.Screen name="MainApp" component={MainApp} options={{headerShown: false}}   /> 
+    </Stack.Navigator>
   )
 }
 
