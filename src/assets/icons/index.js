@@ -12,6 +12,7 @@ import Iconkiloan from './kiloan.svg'
 import Iconsatuan from './satuan.svg'
 import Iconsetrika from './setrika.svg'
 import Iconvip from './vip.svg'
+import IconpesananAktif from './pesananAktif.svg'
 
 export {
     IcongetPoint,
@@ -28,4 +29,5 @@ export {
     Iconsatuan,
     Iconsetrika,
     Iconvip,
+    IconpesananAktif,
 }
