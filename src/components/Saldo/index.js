@@ -32,11 +32,10 @@ const Saldo = () => {
 export default Saldo
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
-
 const styles = StyleSheet.create({
   container: {
     backgroundColor: 'white',
-    padding: 16,
+    padding: 17,
     marginHorizontal: 30,
     borderRadius: 10,
     shadowColor: '#000',
@@ -47,38 +46,36 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.29,
     shadowRadius: 4.65,
     elevation: 7,
+    marginTop: -windowHeight * 0.05,
     flexDirection: 'row',
-    marginTop: -windowHeight * 0.05
   },
   text: {
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
   },
-  informasiSaldo:{
-    width:'60%'
+  informasiSaldo: {
+    width: '60%',
   },
-  labelSaldo:{
-    fontSize:20,
-    fontFamily: 'TitilliumWeb-Regular'
+  labelSaldo: {
+    fontSize: 20,
+    fontFamily: 'TitilliumWeb-Regular',
   },
-  valueSaldo:{
-    fontSize:20,
-    fontFamily: 'TitilliumWeb-Bold'
-  },
-  labelPoin:{
-    fontSize:12,
-    fontFamily: 'TitilliumWeb-Regular'
-  },
-  valuePoin:{
-    fontSize:12,
+  valueSaldo: {
+    fontSize: 20,
     fontFamily: 'TitilliumWeb-Bold',
-    color: WARNA_UTAMA
   },
-  buttonAksi:{
-    
-    flex:1,
+  labelPoint: {
+    fontSize: 12,
+    fontFamily: 'TitilliumWeb-Regular',
+  },
+  valuePoint: {
+    fontSize: 12,
+    fontFamily: 'TitilliumWeb-Bold',
+    color: WARNA_UTAMA,
+  },
+  buttonAksi: {
+    flex: 1,
     flexDirection: 'row',
-    // marginLeft:10,
-    justifyContent: 'flex-end'
-  }
-})
+    justifyContent: 'flex-end',
+  },
+});

@@ -6,5 +6,26 @@ import IconPesanan from './pesanan.svg'
 import IconPesananActive from './pesananActive.svg'
 import IconaddSaldo from './addSaldo.svg'
 import IcongetPoint from './getPoint.svg'
+import Iconekspress from './ekspress.svg'
+import Iconkarpet from './karpet.svg'
+import Iconkiloan from './kiloan.svg'
+import Iconsatuan from './satuan.svg'
+import Iconsetrika from './setrika.svg'
+import Iconvip from './vip.svg'
 
-export { IcongetPoint, IconaddSaldo, IconAkun, IconAkunActive, IconHome, IconHomeActive, IconPesanan, IconPesananActive }
+export {
+    IcongetPoint,
+    IconaddSaldo,
+    IconAkun,
+    IconAkunActive,
+    IconHome,
+    IconHomeActive,
+    IconPesanan,
+    IconPesananActive,
+    Iconekspress,
+    Iconkarpet,
+    Iconkiloan,
+    Iconsatuan,
+    Iconsetrika,
+    Iconvip,
+}
