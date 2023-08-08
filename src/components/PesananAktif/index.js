@@ -42,11 +42,11 @@ const styles = StyleSheet.create({
        },
 
        title:{
-        fontSize:18,
+        fontSize:14,
         fontFamily: 'TitilliumWeb-SemiBold'
        },
        status: (status) => ({
-        fontSize:14,
+        fontSize:12,
         fontFamily: 'TitilliumWeb-Light',
         color: status === 'Sudah Selesai' ? WARNA_UTAMA : status === 'Masih Dicuci' ? WARNA_WARNING : WARNA_ABU_ABU,
        })

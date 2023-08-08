@@ -13,16 +13,16 @@ const Saldo = () => {
       <View style={styles.informasiSaldo}>
         <View style={styles.text}>
           <Text style={styles.labelSaldo}>Saldo :</Text>
-          <Text style={styles.valueSaldo}>Rp. 500000</Text>
+          <Text style={styles.valueSaldo}>   Rp. 500000</Text>
         </View>
         <View style={styles.text}>
-          <Text style={styles.labelPoin}>Antar Point</Text>
-          <Text style={styles.valuePoin}>100 Point</Text>
+          <Text style={styles.labelPoint}>Point  :</Text>
+          <Text style={styles.valuePoint}>100 Point</Text>
         </View>
-        </View>
+      </View>
         <View style={styles.buttonAksi}>
           <ButtonIcon title="Add Saldo" />
-          <Gap width={10} />
+          <Gap width={20} />
           <ButtonIcon title="Get Point" />
         </View>
     </View>
@@ -32,16 +32,17 @@ const Saldo = () => {
 export default Saldo
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
+
 const styles = StyleSheet.create({
   container: {
     backgroundColor: 'white',
     padding: 17,
-    marginHorizontal: 30,
+    marginHorizontal: 15,
     borderRadius: 10,
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
-      height: 3,
+      height: 3,  // untuk mengatur jarak dari pesanan aktif
     },
     shadowOpacity: 0.29,
     shadowRadius: 4.65,
@@ -54,22 +55,24 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   informasiSaldo: {
-    width: '60%',
+    // width: '0%',
   },
   labelSaldo: {
-    fontSize: 20,
+    // fontSize: 20,
     fontFamily: 'TitilliumWeb-Regular',
   },
   valueSaldo: {
-    fontSize: 20,
+    // fontSize: 20 ,
+    // margin:3,
     fontFamily: 'TitilliumWeb-Bold',
   },
   labelPoint: {
-    fontSize: 12,
+    // fontSize: 20,
     fontFamily: 'TitilliumWeb-Regular',
   },
   valuePoint: {
-    fontSize: 12,
+    // margin:4,
+    // fontSize: 15,
     fontFamily: 'TitilliumWeb-Bold',
     color: WARNA_UTAMA,
   },
@@ -77,5 +80,6 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'flex-end',
+    // justifyContent: 'center',
   },
 });

@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         backgroundColor: '#FFFFFF',
         justifyContent: 'space-between',
-        paddingHorizontal: 55,
-        paddingVertical: 10
+        paddingHorizontal: 35, // PADDING HORIZONTAL(BENTUK ARAH SAMPING)
+        paddingTop:10,
     }
 })
